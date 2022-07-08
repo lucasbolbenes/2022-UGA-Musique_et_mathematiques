@@ -32,11 +32,11 @@ def calculErreur(tab):
     tierceMineure = 6/5
     quarte = 4/3
 
-    erreurQuinte = fabs(lePlusProche(quinte, tab) - quinte)
-    erreurTierceMajeure = fabs(lePlusProche(tierceMajeure, tab) - tierceMajeure)
-    erreurTierceMineure = fabs(lePlusProche(tierceMineure, tab) - tierceMineure)
-    erreurQuarte = fabs(lePlusProche(quarte, tab) - quarte)
-    return(erreurQuinte, erreurTierceMajeure, erreurTierceMineure, erreurQuarte, erreurQuinte + erreurTierceMajeure + erreurTierceMineure + erreurQuarte)
+    erreurQuinte = lePlusProche(quinte, tab) / quinte
+    erreurTierceMajeure = lePlusProche(tierceMajeure, tab) / tierceMajeure
+    erreurTierceMineure = lePlusProche(tierceMineure, tab) / tierceMineure
+    erreurQuarte = lePlusProche(quarte, tab) / quarte
+    return(erreurQuinte, erreurTierceMajeure, erreurTierceMineure, erreurQuarte)
 
 def tabResultat(minimum, maximum):
     tab = []
@@ -50,21 +50,30 @@ def tabResultat(minimum, maximum):
         sousTableau.append(resultat[1])
         sousTableau.append(resultat[2])
         sousTableau.append(resultat[3])
-        sousTableau.append(resultat[4])
 
         tab.append(sousTableau)
         i+=1
     return tab
 
 def afficherTabResultat(tab):
-    print("n\tQuinte\t\tTierce Majeure\t\tTierce Mineure\t\tQuarte\t\tSomme des erreurs")
+    print("n\tQuinte\t\tTierce Maj\tTierce Min\tQuarte")
     i = 0
     while i < len(tab):
-        print(str(tab[i][0])+"\t"+str(round(tab[i][1]*10000))+"\t\t"+str(round(tab[i][2]*10000))+"\t\t\t"+str(round(tab[i][3]*10000))+"\t\t\t"+str(round(tab[i][4]*10000))+"\t\t"+str(round(tab[i][5]*10000))+"\n")
+        print(str(tab[i][0])+"\t"+str(format(fabs(1 - tab[i][1]), ".1E"))+"\t\t"+str(format(fabs(1 - tab[i][2]), ".1E"))+"\t\t"+str(format(fabs(1 - tab[i][3]), ".1E"))+"\t\t"+str(format(fabs(1 - tab[i][4]), ".1E"))+"\t\t\n")
         i+=1
 
 
 def afficherResultats(minimum, maximum):
     afficherTabResultat(tabResultat(minimum,maximum))
+
+
+minimum = '\0'
+maximum = '\0'
+while minimum != 0 and maximum != 0:
+    print("Ce programme permet de comparer les gammes tempérées de différentes tailles en fonction du critère suivant :\nOn trouve la note la plus proche de la quinte dans la gamme courante, on calcule son rapport avec la quinte réelle,\non soustrait cette valeur à 1 (car plus cette valeur est proche de 1, plus l'erreur est faible, donc plus la différence\nentre 1 et cette valeur est faible, plus l'erreur est faible), puis on l'affiche en écriture scientifique.\nOn répète ce procédé avec la tierce majeure, la tierce mineur et la quarte pour toutes les gammes comprises\ndans l'intervalle que vous allez définir. Pour quitter veuillez saisir 0\n")
+    minimum = int(input("Veuillez saisir le minimum de l'intervalle : (On conseille 2)"))
+    maximum = int(input("Veuillez saisir le maximum de l'intervalle : "))
+    if minimum != 0 and maximum != 0:
+        afficherResultats(minimum, maximum)
 
 
