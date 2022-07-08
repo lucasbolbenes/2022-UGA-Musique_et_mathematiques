@@ -1,11 +1,11 @@
 # Stage d'excellence UGA
-Lors d'un stage d'excellence effectué en Juin 2022 dont l'objectif était d'étudier le lien entre les mathématiques et la musique, nous avons pu élaborer un programme permettant de comprendre et d'observer certains phénomènes liées à cette thématique ainsi que de faire du traitement de fichier wav.
+Lors d'un stage d'excellence effectué en Juin 2022 dont l'objectif était d'étudier le lien entre les mathématiques et la musique, nous avons pu élaborer un programme permettant de comprendre et d'observer certains phénomènes liés à cette thématique ainsi que de faire du traitement de fichier wav.
 
 Pour utiliser le programme il faut récupérer les fichiers python dans un répertoire, ouvrir une console dans ce même répertoire, et lancer la commande "py app.py".
 
 Vous pourrez alors :
 - gérer le volume et la durée des sons joués
-- créer une gamme tempérée en fonction d'une fréquence fondamentale, d'un nombre d'intervalles et d'un nombre d'octave
+- créer une gamme tempérée en fonction d'une fréquence fondamentale, d'un nombre d'intervalles et d'un nombre d'octaves
 - créer une gamme pythagoricienne en fonction d'une fréquence fondamentale et d'un nombre d'intervalles
 - écouter la gamme courante
 - modifier manuellement la gamme courante
