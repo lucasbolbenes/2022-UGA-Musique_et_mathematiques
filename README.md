@@ -16,8 +16,9 @@ Vous pourrez alors :
 - définir une fichier d'origine et un fichier de destination (il faut sélectionner un fichier wav)
 - entendre le fichier d'origine courant
 - observer le graphe correspondant au fichier d'origine courant ainsi que de sa fft (fast fourier transform)
-- traiter le fichier d'origine courant avec un filtre passe-bas, passe-haut une augmentation ou une diminution de tonalité ou encore de l'autotune (l'autotune est évidemment peu convaincant, l'intêret était dans la conception plutôt que dans l'utilisation, pour plus de renseignements, consultez le rapport)
-- observer à nouveau le graphe mais avec les modifications apporter par le traitement
+- traiter le fichier d'origine courant avec un filtre passe-bas, passe-haut une augmentation ou une diminution de tonalité, la valeur saisie dans le champ d'entrée correspond à la fréquence en hertz, par exemple pour le filtre passe-bas, saisir 400 correspondra à couper toutes les fréquences supérieures à 440 Hz
+- traiter le fichier d'origine courante avec de l'autotune faite-maison qui est peu convaincante, l'intêret étant dans la conception plutôt que dans l'utilisation, pour plus de renseignements, consultez le rapport
+- observer à nouveau le graphe mais avec les modifications apportées par le traitement
 - exporter le résultat dans le fichier de destination courant
 
 
