@@ -20,6 +20,7 @@ Vous pourrez alors :
 - traiter le fichier d'origine courante avec de l'autotune faite-maison qui est peu convaincante, l'intêret étant dans la conception plutôt que dans l'utilisation, pour plus de renseignements, consultez le rapport
 - observer à nouveau le graphe mais avec les modifications apportées par le traitement
 - exporter le résultat dans le fichier de destination courant
+- régler deux fréquences pour pouvoir entendre le phénomène de battements
 
 
 
