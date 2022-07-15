@@ -1,11 +1,11 @@
 # Stage d'excellence UGA - Juin 2022
 Lors d'un stage d'excellence effectué en Juin 2022 dont l'objectif était d'étudier le lien entre les mathématiques et la musique, nous avons pu élaborer des programmes permettant de comprendre et d'observer certains phénomènes liés à cette thématique ainsi que de faire du traitement de fichier wav.
 
-## Compte rendu : "rapport.pdf"
+## Compte rendu : *rapport.pdf*
 Ce fichier est le compte rendu de notre stage. Nous vous invitons à le consulter pour saisir l'intérêt des programmes suivants.
 
-## Programme principal : "app.py"
-Pour utiliser le programme il faut récupérer les fichiers python dans un répertoire, ouvrir une console dans ce même répertoire, et lancer la commande "py app.py".
+## Programme principal : *app.py*
+Pour utiliser le programme il faut récupérer les fichiers python dans un répertoire, ouvrir une console dans ce même répertoire, et lancer la commande *py app.py*.
 
 Vous pourrez alors :
 - gérer le volume et la durée des sons joués
@@ -26,13 +26,13 @@ Vous pourrez alors :
 - exporter le résultat dans le fichier de destination courant
 - régler deux fréquences pour pouvoir entendre le phénomène de battements
 
-## Script "etudeErreurGammes.py"
-Le script "etudeErreurGammes.py" est celui utilisé pour justifier le choix de 12 notes pour le nombre de notes de la gamme tempérée dans notre rapport.
-Pour l'éxecuter, veuillez ouvrir la console dans le repértoire où celui-ci est contenu et saisissez la commande : "py etudeErreurGames.py".
+## Script *etudeErreurGammes.py*
+Le script *etudeErreurGammes.py* est celui utilisé pour justifier le choix de 12 notes pour le nombre de notes de la gamme tempérée dans notre rapport.
+Pour l'éxecuter, veuillez ouvrir la console dans le repértoire où celui-ci est contenu et saisissez la commande : *py etudeErreurGames.py*.
 
-## Script "harmonique.py"
-Le script "harmonique.py" est celui utilisé pour expliquer ce qu'est le timbre.
-Pour l'éxecuter, veuillez ouvrir la console dans le repértoire où celui-ci est contenu et saisissez la commande : "py harmonique.py".
+## Script *harmonique.py*
+Le script *harmonique.py* est celui utilisé pour expliquer ce qu'est le timbre.
+Pour l'éxecuter, veuillez ouvrir la console dans le repértoire où celui-ci est contenu et saisissez la commande : *py harmonique.py*.
 
 ## Installation de PyAudio
 PyAudio est un module qui ne s'installe pas de manière conventionnelle.
