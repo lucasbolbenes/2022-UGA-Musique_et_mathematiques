@@ -35,6 +35,6 @@ Le script "harmonique.py" est celui utilisé pour expliquer ce qu'est le timbre.
 Pour l'éxecuter, veuillez ouvrir la console dans le repértoire où celui-ci est contenu et saisissez la commande : "py harmonique.py".
 
 ## Installation de PyAudio
-PyAudio est un module qui s'installe pas de manière conventionnelle.
+PyAudio est un module qui ne s'installe pas de manière conventionnelle.
 Pour l'installer veuillez suivre les instructions du tutoriel suivant : https://www.youtube.com/watch?v=gVZZzb_FIXo
 
