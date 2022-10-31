@@ -3,10 +3,10 @@
 # UGA Excellence Course - June 2022
 During a training course of excellence carried out in June 2022 whose objective was to study the link between mathematics and music, we were able to develop programs allowing to understand and to observe certain phenomena related to this topic as well as to make treatment of wav file.
 
-## Prerequisite : *prerequisite.txt*
+## Prerequisite : *prerequis.txt*
 Some prerequisites are necessary for the program to run correctly. You will find them in the file *prerequis.txt*.
 
-## Report : *report.pdf*
+## Report : *rapport.pdf*
 This file is the report of our course. We invite you to consult it to understand the interest of the following programs.
 
 ## Main program : *app.py*
