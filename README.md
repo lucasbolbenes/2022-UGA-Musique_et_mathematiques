@@ -31,13 +31,13 @@ You can then :
 - export the result to the current destination file
 - set two frequencies so that you can hear the flapping phenomenon
 
-## Script *etudeErrorGammes.py*
+## Script *etudeErreurGammes.py*
 The *etudeErrorRanges.py* script is the one used to justify the choice of 12 notes for the number of notes in the tempered scale in our report.
-To run it, please open the console in the directory where it is contained and enter the command : *py etudeErrorGames.py*.
+To run it, please open the console in the directory where it is contained and enter the command : *py etudeErreurGames.py*.
 
-## Script *harmonic.py*
+## Script *harmonique.py*
 The *harmonic.py* script is the one used to explain what the timbre is.
-To execute it, please open the console in the directory where it is contained and enter the command : *py harmonic.py*.
+To execute it, please open the console in the directory where it is contained and enter the command : *py harmonique.py*.
 
 ## Installing PyAudio
 PyAudio is a module that cannot be installed in a conventional way.
