@@ -1,4 +1,4 @@
-#ENGLISH VERSION*
+# ENGLISH VERSION#
 
 # UGA Excellence Course - June 2022
 During a training course of excellence carried out in June 2022 whose objective was to study the link between mathematics and music, we were able to develop programs allowing to understand and to observe certain phenomena related to this topic as well as to make treatment of wav file.
@@ -43,7 +43,7 @@ To execute it, please open the console in the directory where it is contained an
 PyAudio is a module that cannot be installed in a conventional way.
 To install it, please follow the instructions in the following tutorial: https://www.youtube.com/watch?v=gVZZzb_FIXo
 
-*VERSION FRANÇAISE*
+# VERSION FRANÇAISE
 
 # Stage d'excellence UGA - Juin 2022
 Lors d'un stage d'excellence effectué en Juin 2022 dont l'objectif était d'étudier le lien entre les mathématiques et la musique, nous avons pu élaborer des programmes permettant de comprendre et d'observer certains phénomènes liés à cette thématique ainsi que de faire du traitement de fichier wav.
