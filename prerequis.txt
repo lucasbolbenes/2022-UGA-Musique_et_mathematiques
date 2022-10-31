@@ -1,0 +1,23 @@
+ENGLISH VERSION
+
+You must have a version of python lower than 3.11, you can for example install version 3.10.8 : 
+https://www.python.org/downloads/release/python-3108/
+
+Then the following modules are required :
+python -m pip install pyaudio
+pip install numpy
+pip install scipy
+pip install librosa 
+pip install matplotlib 
+
+VERSION FRANÇAISE
+
+Vous devez avoir une version de python inférieure à 3.11, vous pouvez par exemple installer la version 3.10.8 : 
+https://www.python.org/downloads/release/python-3108/
+
+Ensuite, les modules suivants sont nécessaires :
+python -m pip install pyaudio
+pip install numpy
+pip install scipy
+pip install librosa 
+pip install matplotlib 
