@@ -1,4 +1,4 @@
-# ENGLISH VERSION#
+# ENGLISH VERSION
 
 # UGA Excellence Course - June 2022
 During a training course of excellence carried out in June 2022 whose objective was to study the link between mathematics and music, we were able to develop programs allowing to understand and to observe certain phenomena related to this topic as well as to make treatment of wav file.
